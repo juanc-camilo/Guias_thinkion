@@ -106,8 +106,6 @@ h1, h2, h3, p { margin: 0; }
 .tarjeta__datos { display: flex; flex-wrap: wrap; gap: 6px; margin-top: auto; }
 .chip { background: var(--lila); border-radius: 51px; color: var(--violeta); font-size: 12px; line-height: 16px; padding: 3px 10px; }
 .chip--guia { background: rgba(19, 56, 131, .1); color: var(--azul-oscuro); }
-.chip--anterior { background: rgba(122, 122, 122, .14); color: var(--gris); }
-.chip--externo { background: rgba(255, 111, 114, .16); color: #d9484c; }
 
 .vacio { color: var(--azul-oscuro); font-size: 18px; padding: 80px 0; text-align: center; }
 .vacio strong { display: block; font-size: 28px; font-weight: 400; margin-bottom: 8px; }

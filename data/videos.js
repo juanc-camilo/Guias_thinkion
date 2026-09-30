@@ -1,7 +1,7 @@
 /* Archivo generado por scripts/actualizar.mjs — no editar a mano: los cambios se hacen en el Google Sheet */
 window.GUIAS = {
-  "actualizado": "2026-09-30T21:29:48.101Z",
-  "total": 106,
+  "actualizado": "2026-09-30T22:11:53.514Z",
+  "total": 95,
   "items": [
     {
       "id": "760423060",
@@ -125,6 +125,32 @@ window.GUIAS = {
       "fuente": "vimeo",
       "miniatura": "https://i.vimeocdn.com/video/2145499766-b78a64b3389ccd38cc71daef7ef19501814c64e392a1c56b1b7b71195ebf7977-d_640x360?region=us",
       "duracion": 37
+    },
+    {
+      "id": "323580045",
+      "nombre": "Apertura de Mesa - Adición - Comandar",
+      "modulo": "PDV",
+      "categoria": "Ordenes",
+      "tipo": "video",
+      "anterior": true,
+      "url": "https://vimeo.com/323580045",
+      "embed": "https://player.vimeo.com/video/323580045",
+      "fuente": "vimeo",
+      "miniatura": "https://i.vimeocdn.com/video/766713975-16a463e36be6d5761f11cbcebe06aba80a43d8d0c26d4b9f890ebbc98ecf3780-d_640?region=us",
+      "duracion": 193
+    },
+    {
+      "id": "323579323",
+      "nombre": "Cancelación Artículo",
+      "modulo": "PDV",
+      "categoria": "Ordenes",
+      "tipo": "video",
+      "anterior": true,
+      "url": "https://vimeo.com/323579323",
+      "embed": "https://player.vimeo.com/video/323579323",
+      "fuente": "vimeo",
+      "miniatura": "https://i.vimeocdn.com/video/766712768-3302067da8c0b9dc435d02e0383bc1568d484aa54d2e7d8bdcbc779d5d5f4f17-d_640?region=us",
+      "duracion": 47
     },
     {
       "id": "1182132943",
@@ -540,18 +566,6 @@ window.GUIAS = {
       "duracion": 113
     },
     {
-      "id": "446903028",
-      "nombre": "Reportes Think Check",
-      "modulo": "SIN USO",
-      "categoria": "Reportes y Auditoría",
-      "tipo": "video",
-      "anterior": true,
-      "url": "https://vimeo.com/446903028",
-      "embed": null,
-      "fuente": "vimeo",
-      "restringido": true
-    },
-    {
       "id": "350956625",
       "nombre": "Administracion - Think Food",
       "modulo": "SIN USO",
@@ -630,83 +644,6 @@ window.GUIAS = {
       "duracion": 127
     },
     {
-      "id": "350949314",
-      "nombre": "Encuestas - Think Food",
-      "modulo": "SIN USO",
-      "categoria": "Aplicacion FOOD",
-      "tipo": "video",
-      "anterior": true,
-      "url": "https://vimeo.com/350949314",
-      "embed": "https://player.vimeo.com/video/350949314",
-      "fuente": "vimeo",
-      "miniatura": "https://i.vimeocdn.com/video/802389328-73fbd02ce12df80d5700351835d31096b75e02b763dee78876cb35e7b89885f5-d_640x360?region=us",
-      "duracion": 252
-    },
-    {
-      "id": "350949081",
-      "nombre": "Marketing - Think Food",
-      "modulo": "SIN USO",
-      "categoria": "Aplicacion FOOD",
-      "tipo": "video",
-      "anterior": true,
-      "url": "https://vimeo.com/350949081",
-      "embed": "https://player.vimeo.com/video/350949081",
-      "fuente": "vimeo",
-      "miniatura": "https://i.vimeocdn.com/video/802388954-668d13ccbde76e59b5b025fbcacceb1dad3f7646855ac34589898d2f002ed2fc-d_640x360?region=us",
-      "duracion": 153
-    },
-    {
-      "id": "350948854",
-      "nombre": "Satifaccion - Think Food",
-      "modulo": "SIN USO",
-      "categoria": "Aplicacion FOOD",
-      "tipo": "video",
-      "anterior": true,
-      "url": "https://vimeo.com/350948854",
-      "embed": "https://player.vimeo.com/video/350948854",
-      "fuente": "vimeo",
-      "miniatura": "https://i.vimeocdn.com/video/802388488-df8faa60fbbfba97f850c1a912e9357601d0537fea5b9a88422e367adf1036b8-d_640x360?region=us",
-      "duracion": 95
-    },
-    {
-      "id": "350949629",
-      "nombre": "Vision General - Think Food",
-      "modulo": "SIN USO",
-      "categoria": "Aplicacion FOOD",
-      "tipo": "video",
-      "anterior": true,
-      "url": "https://vimeo.com/350949629",
-      "embed": "https://player.vimeo.com/video/350949629",
-      "fuente": "vimeo",
-      "miniatura": "https://i.vimeocdn.com/video/802389510-54cc8abf34ad3f43c6cdfc29c447cb1ecbb8937e0b84462d968a7928fdfd0ac2-d_640x360?region=us",
-      "duracion": 92
-    },
-    {
-      "id": "760423204",
-      "nombre": "Dentro de encuestas, configuracion base encuestas",
-      "modulo": "Administrador",
-      "categoria": "Encuestas",
-      "tipo": "video",
-      "anterior": true,
-      "url": "https://vimeo.com/760423204",
-      "embed": null,
-      "fuente": "vimeo",
-      "restringido": true
-    },
-    {
-      "id": "344945127",
-      "nombre": "Como activar o desactivar una regla directa - Reglas de precio Directa",
-      "modulo": "PDV",
-      "categoria": "Reglas",
-      "tipo": "video",
-      "anterior": true,
-      "url": "https://vimeo.com/344945127",
-      "embed": "https://player.vimeo.com/video/344945127",
-      "fuente": "vimeo",
-      "miniatura": "https://i.vimeocdn.com/video/794573689-547ceeabff3242ad0efdd0fdfe7dc8971740ff4d2e49bbe34e2ed897a4de96ad-d_640x360?region=us",
-      "duracion": 38
-    },
-    {
       "id": "1174053774",
       "nombre": "Asignaciones de marca, categoria, grupos, complementos",
       "modulo": "Administrador",
@@ -769,19 +706,6 @@ window.GUIAS = {
       "fuente": "vimeo",
       "miniatura": "https://i.vimeocdn.com/video/2144675396-d95940fc3dedc12c12c576e141cc939ad5f1fd7bf9b778b3efeb57413883a2dd-d_640x360?region=us",
       "duracion": 94
-    },
-    {
-      "id": "410388434",
-      "nombre": "Ecommerce - Productos Virtuales",
-      "modulo": "Administrador",
-      "categoria": "Productos",
-      "tipo": "video",
-      "anterior": true,
-      "url": "https://vimeo.com/410388434",
-      "embed": "https://player.vimeo.com/video/410388434",
-      "fuente": "vimeo",
-      "miniatura": "https://i.vimeocdn.com/video/882037234-d94fe3831e869213b389f347f5d8270a4cd8f4a52627d75d540f6afec016da62-d_640x360?region=us",
-      "duracion": 271
     },
     {
       "id": "1174049463",
@@ -964,58 +888,6 @@ window.GUIAS = {
       "duracion": 70
     },
     {
-      "id": "410389589",
-      "nombre": "Ecommerce - Aprobaciones, YA CAMBIO COMO ENTRAR A CIERTAS PARTES",
-      "modulo": "SIN USO",
-      "categoria": "Ecommerce",
-      "tipo": "video",
-      "anterior": true,
-      "url": "https://vimeo.com/410389589",
-      "embed": "https://player.vimeo.com/video/410389589",
-      "fuente": "vimeo",
-      "miniatura": "https://i.vimeocdn.com/video/882038935-14b66e5986dc4b0348ae947c3c146c33acf4d96772158096c771cce9ed54c316-d_640x360?region=us",
-      "duracion": 257
-    },
-    {
-      "id": "410387590",
-      "nombre": "Ecommerce - Banner y táctico, YA CAMBIO COMO ENTRAR A CIERTAS PARTES",
-      "modulo": "SIN USO",
-      "categoria": "Integraciones y Delivery",
-      "tipo": "video",
-      "anterior": true,
-      "url": "https://vimeo.com/410387590",
-      "embed": "https://player.vimeo.com/video/410387590",
-      "fuente": "vimeo",
-      "miniatura": "https://i.vimeocdn.com/video/882035630-08ae44e084fc659c8156ad8294401e2dd7419ccb8eedd3371748d3154dd3d065-d_640x360?region=us",
-      "duracion": 244
-    },
-    {
-      "id": "410387258",
-      "nombre": "Ecommerce - Locales, YA CAMBIO COMO ENTRAR A CIERTAS PARTES",
-      "modulo": "SIN USO",
-      "categoria": "Integraciones y Delivery",
-      "tipo": "video",
-      "anterior": true,
-      "url": "https://vimeo.com/410387258",
-      "embed": "https://player.vimeo.com/video/410387258",
-      "fuente": "vimeo",
-      "miniatura": "https://i.vimeocdn.com/video/882034383-6988a92424e21857e4706ff24c10abdaa9d11da7b4b69558b865a119988cf513-d_640x360?region=us",
-      "duracion": 80
-    },
-    {
-      "id": "410386944",
-      "nombre": "Ecommerce - Zonas YA CAMBIO COMO ENTRAR A CIERTAS PARTES",
-      "modulo": "SIN USO",
-      "categoria": "Integraciones y Delivery",
-      "tipo": "video",
-      "anterior": true,
-      "url": "https://vimeo.com/410386944",
-      "embed": "https://player.vimeo.com/video/410386944",
-      "fuente": "vimeo",
-      "miniatura": "https://i.vimeocdn.com/video/882035024-3e963a9db029ccdeac792819c7276af2d50e59076d2ab6909cfc12a1ff4f35e2-d_640x360?region=us",
-      "duracion": 115
-    },
-    {
       "id": "1174099866",
       "nombre": "Integraciones Pedidos Ya, como mandar un mail de correccion a pedidos ya",
       "modulo": "Administrador",
@@ -1092,19 +964,6 @@ window.GUIAS = {
       "fuente": "vimeo",
       "miniatura": "https://i.vimeocdn.com/video/2144675366-3f3f1ba9fd33d1c7ddac073545317b6dde456d06ee513ecaf7758b463e31ff99-d_640x360?region=us",
       "duracion": 68
-    },
-    {
-      "id": "344935891",
-      "nombre": "Configuración Deliveries, de motos",
-      "modulo": "Administrador",
-      "categoria": "Entregas",
-      "tipo": "video",
-      "anterior": true,
-      "url": "https://vimeo.com/344935891",
-      "embed": "https://player.vimeo.com/video/344935891",
-      "fuente": "vimeo",
-      "miniatura": "https://i.vimeocdn.com/video/794561702-f0e324ac2bbf6d60113f69f881127b40c647a1b5019ad92f9b24320e8a9aaa5c-d_640x360?region=us",
-      "duracion": 61
     },
     {
       "id": "524508194",

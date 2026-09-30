@@ -8,6 +8,9 @@
 
   // Orden de las pestañas de módulo; los que no estén acá van al final
   const ORDEN_MODULOS = ["Administrador", "PDV", "App Externa", "General"];
+  // Módulos que no se muestran como pestaña ni como etiqueta (sus videos siguen en "Todos")
+  const MODULOS_OCULTOS = ["SIN USO"];
+  const moduloVisible = (m) => !MODULOS_OCULTOS.includes(m);
 
   const $ = (id) => document.getElementById(id);
   const el = {
@@ -60,7 +63,7 @@
 
   function dibujarModulos() {
     const cuentas = contar(ITEMS, "modulo");
-    const modulos = [...cuentas.keys()].sort((a, b) => {
+    const modulos = [...cuentas.keys()].filter(moduloVisible).sort((a, b) => {
       const ia = ORDEN_MODULOS.indexOf(a), ib = ORDEN_MODULOS.indexOf(b);
       return (ia < 0 ? 99 : ia) - (ib < 0 ? 99 : ib);
     });
@@ -85,9 +88,7 @@
     const externo = !item.embed || item.restringido;
     const chips = [
       esGuia ? '<span class="chip chip--guia">Guía</span>' : '<span class="chip">Video</span>',
-      `<span class="chip">${escapar(item.modulo)}</span>`,
-      item.anterior ? '<span class="chip chip--anterior">Versión anterior</span>' : "",
-      externo ? `<span class="chip chip--externo">Se abre en ${NOMBRE_FUENTE[item.fuente]}</span>` : "",
+      moduloVisible(item.modulo) ? `<span class="chip">${escapar(item.modulo)}</span>` : "",
     ].join("");
     const imagen = item.miniatura ? `<img src="${escapar(item.miniatura)}" alt="" loading="lazy" onerror="this.remove()">` : "";
     const contenido = `
@@ -142,7 +143,7 @@
     const item = ITEMS.find((i) => i.id === id);
     if (!item || !item.embed || item.restringido) return;
     const esGuia = item.tipo === "guia";
-    el.visorRuta.textContent = `${item.modulo} · ${item.categoria}${item.anterior ? " · Versión anterior" : ""}`;
+    el.visorRuta.textContent = moduloVisible(item.modulo) ? `${item.modulo} · ${item.categoria}` : item.categoria;
     el.visorTitulo.textContent = item.nombre;
     el.visorMarco.className = `visor__marco visor__marco--${esGuia ? "guia" : "video"}`;
     const iframe = document.createElement("iframe");
