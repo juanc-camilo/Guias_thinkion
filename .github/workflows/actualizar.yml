@@ -1,0 +1,41 @@
+# Lee el Google Sheet una vez por día y, si hay cambios, actualiza data/videos.js.
+# GitHub Pages vuelve a publicar la página sola con cada commit.
+# Para actualizar en el momento: pestaña Actions > "Actualizar guías" > Run workflow.
+name: Actualizar guías
+
+on:
+  schedule:
+    - cron: "0 9 * * *" # todos los días a las 06:00 de Argentina (09:00 UTC)
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: actualizar-guias
+  cancel-in-progress: false
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Leer el Sheet y generar la lista
+        run: node scripts/actualizar.mjs
+
+      - name: Guardar cambios
+        run: |
+          if git diff --quiet -- data/videos.js; then
+            echo "No hay videos nuevos."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898733+github-actions[bot]@users.noreply.github.com"
+          git add data/videos.js
+          git commit -m "Actualizar guías desde el Sheet"
+          git push

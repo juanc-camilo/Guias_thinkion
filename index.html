@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guías Thinkion | Videos y tutoriales paso a paso</title>
+  <meta name="description" content="Videos y guías para aprender a usar Thinkion: administrador, punto de venta, caja, productos, reportes y más.">
+  <meta name="theme-color" content="#7a4aeb">
+  <link rel="icon" href="assets/img/favicon.ico" sizes="16x16 32x32 48x48">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&display=swap">
+  <link rel="stylesheet" href="assets/estilos.css">
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <!-- Fondo decorativo: el mismo de la página de Gastronomía -->
+  <div class="fondo-deco" aria-hidden="true">
+    <img class="fondo-seg__hero" src="assets/img/fondo-gastro-hero.svg" alt="" width="2162" height="1564">
+    <img class="fondo-seg__lila" src="assets/img/fondo-lila.svg" alt="" width="1657" height="1657">
+    <img class="fondo-seg__violeta" src="assets/img/fondo-gastro-violeta.svg" alt="" width="1823" height="1746">
+    <img class="fondo-seg__izq" src="assets/img/fondo-gastro-coral-izq.svg" alt="" width="2045" height="2064">
+    <img class="fondo-seg__der" src="assets/img/fondo-gastro-coral-der.svg" alt="" width="2207" height="2328">
+  </div>
+
+  <header class="encabezado">
+    <a class="encabezado__logo" href="https://thinkion.com.ar" aria-label="Thinkion, ir al sitio">
+      <img src="assets/img/logo-thinkion-blanco.svg" alt="Thinkion" width="189" height="33">
+    </a>
+    <a class="encabezado__sitio" href="https://thinkion.com.ar">Ir a thinkion.com.ar</a>
+  </header>
+
+  <main id="contenido">
+    <section class="hero">
+      <span class="hero__etiqueta">Centro de ayuda</span>
+      <h1 class="hero__titulo">Aprendé a usar <span class="subrayado">Thinkion</span> paso a paso</h1>
+      <p class="hero__bajada">Videos y guías cortas para cada parte del sistema: administrador, punto de venta, caja, productos, reportes y más.</p>
+
+      <label class="buscador">
+        <span class="sr-only">Buscar un video o una guía</span>
+        <svg class="buscador__icono" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <input id="buscar" type="search" placeholder="¿Qué querés aprender? Ej: cierre de caja, descuentos…" autocomplete="off">
+      </label>
+
+      <div class="modulos" id="modulos" role="tablist" aria-label="Filtrar por módulo"></div>
+    </section>
+
+    <section class="biblioteca" aria-live="polite">
+      <div class="categorias" id="categorias" aria-label="Filtrar por categoría"></div>
+
+      <div class="resumen">
+        <span id="resumen"></span>
+        <button class="resumen__limpiar" id="limpiar" type="button" hidden>Limpiar filtros</button>
+      </div>
+
+      <div id="resultados"></div>
+    </section>
+  </main>
+
+  <footer class="pie">
+    <img src="assets/img/logo-thinkion-oscuro.svg" alt="Thinkion" width="150" height="26">
+    <p id="actualizado"></p>
+    <p>© <span id="anio"></span> Thinkion. Todos los derechos reservados.</p>
+  </footer>
+
+  <!-- Reproductor: se abre al tocar un video o una guía -->
+  <dialog class="visor" id="visor" aria-labelledby="visor-titulo">
+    <div class="visor__caja">
+      <div class="visor__cabecera">
+        <div>
+          <p class="visor__ruta" id="visor-ruta"></p>
+          <h2 class="visor__titulo" id="visor-titulo"></h2>
+        </div>
+        <button class="visor__cerrar" id="visor-cerrar" type="button" aria-label="Cerrar">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+        </button>
+      </div>
+      <div class="visor__marco" id="visor-marco"></div>
+      <div class="visor__acciones">
+        <a class="visor__externo" id="visor-externo" href="#" target="_blank" rel="noopener"></a>
+        <button class="visor__copiar" id="visor-copiar" type="button">Copiar enlace</button>
+      </div>
+    </div>
+  </dialog>
+
+  <script src="data/videos.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>
