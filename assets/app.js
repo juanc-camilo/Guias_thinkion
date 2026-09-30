@@ -17,7 +17,7 @@
     buscar: $("buscar"), modulos: $("modulos"), categorias: $("categorias"),
     resumen: $("resumen"), limpiar: $("limpiar"), resultados: $("resultados"),
     visor: $("visor"), visorRuta: $("visor-ruta"), visorTitulo: $("visor-titulo"),
-    visorMarco: $("visor-marco"), visorExterno: $("visor-externo"),
+    visorMarco: $("visor-marco"), visorDescripcion: $("visor-descripcion"), visorExterno: $("visor-externo"),
     visorCopiar: $("visor-copiar"), visorCerrar: $("visor-cerrar"),
   };
 
@@ -56,7 +56,7 @@
     if (usarCategoria && estado.categoria && item.categoria !== estado.categoria) return false;
     if (estado.texto) {
       const q = normalizar(estado.texto);
-      return normalizar(`${item.nombre} ${item.categoria} ${item.modulo}`).includes(q);
+      return normalizar(`${item.nombre} ${item.descripcion || ""} ${item.categoria} ${item.modulo}`).includes(q);
     }
     return true;
   }
@@ -99,6 +99,7 @@
       </span>
       <span class="tarjeta__cuerpo">
         <span class="tarjeta__nombre">${resaltar(item.nombre, estado.texto)}</span>
+        ${item.descripcion ? `<span class="tarjeta__descripcion">${resaltar(item.descripcion, estado.texto)}</span>` : ""}
         <span class="tarjeta__datos">${chips}</span>
       </span>`;
     // Si no se puede mostrar adentro (privado o sin compartir), la tarjeta es un enlace al original
@@ -145,6 +146,8 @@
     const esGuia = item.tipo === "guia";
     el.visorRuta.textContent = moduloVisible(item.modulo) ? `${item.modulo} · ${item.categoria}` : item.categoria;
     el.visorTitulo.textContent = item.nombre;
+    el.visorDescripcion.textContent = item.descripcion || "";
+    el.visorDescripcion.hidden = !item.descripcion;
     el.visorMarco.className = `visor__marco visor__marco--${esGuia ? "guia" : "video"}`;
     const iframe = document.createElement("iframe");
     iframe.src = item.embed + (item.fuente === "vimeo" ? `${item.embed.includes("?") ? "&" : "?"}autoplay=1&dnt=1` : "");

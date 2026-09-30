@@ -103,6 +103,8 @@ h1, h2, h3, p { margin: 0; }
 .tarjeta__cuerpo { display: flex; flex: 1; flex-direction: column; gap: 10px; padding: 16px 20px 20px; }
 .tarjeta__nombre { color: var(--texto); font-size: 17px; font-weight: 500; line-height: 22px; }
 .tarjeta__nombre mark { background: rgba(255, 111, 114, .25); border-radius: 3px; color: inherit; padding: 0 2px; }
+.tarjeta__descripcion { color: var(--gris); display: -webkit-box; font-size: 14px; line-height: 20px; overflow: hidden; -webkit-box-orient: vertical; -webkit-line-clamp: 3; }
+.tarjeta__descripcion mark { background: rgba(255, 111, 114, .25); border-radius: 3px; color: inherit; padding: 0 2px; }
 .tarjeta__datos { display: flex; flex-wrap: wrap; gap: 6px; margin-top: auto; }
 .chip { background: var(--lila); border-radius: 51px; color: var(--violeta); font-size: 12px; line-height: 16px; padding: 3px 10px; }
 .chip--guia { background: rgba(19, 56, 131, .1); color: var(--azul-oscuro); }
@@ -122,6 +124,7 @@ h1, h2, h3, p { margin: 0; }
 @keyframes aparecer { from { opacity: 0; transform: translateY(16px) scale(.98); } }
 .visor__caja { background: var(--blanco); border-radius: 28px; box-shadow: 0 30px 80px -20px rgba(19, 19, 40, .6); display: flex; flex-direction: column; gap: 16px; max-height: calc(100vh - 32px); padding: 24px; width: min(1000px, 100vw - 2 * var(--gutter)); }
 .visor__cabecera { align-items: flex-start; display: flex; gap: 16px; justify-content: space-between; }
+.visor__descripcion { color: var(--texto); font-size: 15px; line-height: 22px; margin-top: 14px; white-space: pre-line; }
 .visor__ruta { color: var(--violeta); font-size: 14px; margin-bottom: 4px; }
 .visor__titulo { color: var(--azul-oscuro); font-size: 26px; font-weight: 400; line-height: 32px; }
 .visor__cerrar { align-items: center; background: var(--lila); border-radius: 50%; display: flex; flex-shrink: 0; height: 40px; justify-content: center; transition: background-color .2s; width: 40px; }

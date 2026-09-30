@@ -4,7 +4,7 @@
    A mano: node scripts/actualizar.mjs
 
    Columnas del Sheet:
-     A Módulo · B Categoría · C Publico/Interno · D Tipo · E Nombre · F Enlace
+     A Módulo · B Categoría · C Publico/Interno · D Tipo · E Nombre · F Descripción · G Enlace
    Solo pasan a la página las filas con "Publico" en la columna C.
    ========================================================= */
 import { readFile, writeFile } from "node:fs/promises";
@@ -78,7 +78,7 @@ const vistos = new Set();
 const items = [];
 
 for (const f of filas) {
-  const [modulo, categoria, visibilidad, tipo, nombre, enlace] = f.map((c) => limpiar(c));
+  const [modulo, categoria, visibilidad, tipo, nombre, descripcion, enlace] = f.map((c) => limpiar(c));
   if (sinAcentos(visibilidad || "").toLowerCase() !== "publico") continue;
   if (!nombre || !/^https?:\/\//i.test(enlace || "")) continue;
   if (vistos.has(enlace)) continue; // mismo enlace cargado dos veces
@@ -88,6 +88,7 @@ for (const f of filas) {
   items.push({
     id: identificador(enlace),
     nombre,
+    descripcion: descripcion || "",
     modulo: modulo || "General",
     categoria: sinEmoji(categoria || "") || "Otros",
     tipo: tipoNorm.includes("pdf") || tipoNorm.includes("guia") || tipoNorm.includes("doc") ? "guia" : "video",

@@ -14,9 +14,10 @@ Todo se maneja desde el **Google Sheet**. No hay que tocar código.
 | C | **Publico** o **Interno**: solo "Publico" aparece en la página | Publico |
 | D | Tipo | Video, Video Viejo, PDF |
 | E | Nombre que se muestra | Apertura y cierre de caja |
-| F | Enlace | https://vimeo.com/… · Google Drive · Google Docs |
+| F | Descripción (opcional): se ve en la tarjeta y debajo del video | Cómo abrir la caja al empezar el turno y cerrarla al final |
+| G | Enlace | https://vimeo.com/… · Google Drive · Google Docs |
 
-- **Video Viejo** se muestra con la etiqueta "Versión anterior".
+- El módulo **SIN USO** no aparece como pestaña: sus videos se ven solo en "Todos".
 - **PDF** se muestra como "Guía" (sirve para Google Docs o PDF en Drive).
 - Si la fila no tiene nombre o enlace, se ignora. Si un enlace está repetido, se muestra una sola vez.
 
@@ -26,8 +27,7 @@ Todo se maneja desde el **Google Sheet**. No hay que tocar código.
   (en Vimeo: *Configuración del video → Privacidad → Dónde se puede insertar → Cualquier lugar*).
 - **Google Drive / Docs:** el archivo tiene que estar compartido como *Cualquier persona con el enlace → Lector*.
 
-Si no cumple eso, la tarjeta igual aparece, con la etiqueta "Se abre en Vimeo / Google Docs",
-y al tocarla abre el original en otra pestaña.
+Si no cumple eso, la tarjeta igual aparece, pero al tocarla abre el original en otra pestaña.
 Cada vez que corre la actualización, el registro de GitHub lista cuáles están en esa situación.
 
 ## Subirlo a GitHub (una sola vez)

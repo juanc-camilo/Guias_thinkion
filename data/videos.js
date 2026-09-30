@@ -1,11 +1,12 @@
 /* Archivo generado por scripts/actualizar.mjs — no editar a mano: los cambios se hacen en el Google Sheet */
 window.GUIAS = {
-  "actualizado": "2026-09-30T22:11:53.514Z",
+  "actualizado": "2026-09-30T22:41:28.515Z",
   "total": 95,
   "items": [
     {
       "id": "760423060",
       "nombre": "Dentro de encuestas, configuracion cupones",
+      "descripcion": "",
       "modulo": "Administrador",
       "categoria": "Encuestas",
       "tipo": "video",
@@ -18,6 +19,7 @@ window.GUIAS = {
     {
       "id": "760422940",
       "nombre": "Dentro de encuestas, configuracion distribucion",
+      "descripcion": "",
       "modulo": "Administrador",
       "categoria": "Encuestas",
       "tipo": "video",
@@ -30,6 +32,7 @@ window.GUIAS = {
     {
       "id": "760422891",
       "nombre": "Dentro de encuestas, configuracion host",
+      "descripcion": "",
       "modulo": "Administrador",
       "categoria": "Encuestas",
       "tipo": "video",
@@ -42,6 +45,7 @@ window.GUIAS = {
     {
       "id": "760422967",
       "nombre": "Dentro de encuestas, configuracion lenguaje",
+      "descripcion": "",
       "modulo": "Administrador",
       "categoria": "Encuestas",
       "tipo": "video",
@@ -54,6 +58,7 @@ window.GUIAS = {
     {
       "id": "760423128",
       "nombre": "Dentro de encuestas, configuracion preguntas",
+      "descripcion": "",
       "modulo": "Administrador",
       "categoria": "Encuestas",
       "tipo": "video",
@@ -66,6 +71,7 @@ window.GUIAS = {
     {
       "id": "760422831",
       "nombre": "Dentro de encuestas, configuracion template",
+      "descripcion": "",
       "modulo": "Administrador",
       "categoria": "Encuestas",
       "tipo": "video",
@@ -78,6 +84,7 @@ window.GUIAS = {
     {
       "id": "1169708405",
       "nombre": "Publicacion",
+      "descripcion": "",
       "modulo": "Administrador",
       "categoria": "Ventas",
       "tipo": "video",
@@ -91,6 +98,7 @@ window.GUIAS = {
     {
       "id": "760422782",
       "nombre": "Dentro de encuestas, publicacion de enuestas",
+      "descripcion": "",
       "modulo": "Administrador",
       "categoria": "Encuestas",
       "tipo": "video",
@@ -103,6 +111,7 @@ window.GUIAS = {
     {
       "id": "1169704326",
       "nombre": "Edicion masiva de productos, con sheet",
+      "descripcion": "",
       "modulo": "Administrador",
       "categoria": "Productos",
       "tipo": "video",
@@ -116,6 +125,7 @@ window.GUIAS = {
     {
       "id": "1182132915",
       "nombre": "Anulación de Mesa // hacer nota de credito",
+      "descripcion": "",
       "modulo": "PDV",
       "categoria": "Ordenes",
       "tipo": "video",
@@ -129,6 +139,7 @@ window.GUIAS = {
     {
       "id": "323580045",
       "nombre": "Apertura de Mesa - Adición - Comandar",
+      "descripcion": "",
       "modulo": "PDV",
       "categoria": "Ordenes",
       "tipo": "video",
@@ -142,6 +153,7 @@ window.GUIAS = {
     {
       "id": "323579323",
       "nombre": "Cancelación Artículo",
+      "descripcion": "",
       "modulo": "PDV",
       "categoria": "Ordenes",
       "tipo": "video",
@@ -155,6 +167,7 @@ window.GUIAS = {
     {
       "id": "1182132943",
       "nombre": "Como cobrar una mesa - Facturar",
+      "descripcion": "",
       "modulo": "PDV",
       "categoria": "Ordenes",
       "tipo": "video",
@@ -168,6 +181,7 @@ window.GUIAS = {
     {
       "id": "1182132860",
       "nombre": "Lógica de planos- Diferencia entre plano salon, mostrador y delivery",
+      "descripcion": "",
       "modulo": "PDV",
       "categoria": "Mostrador y Salon",
       "tipo": "video",
@@ -181,6 +195,7 @@ window.GUIAS = {
     {
       "id": "1182132760",
       "nombre": "Movimiento de mesa",
+      "descripcion": "",
       "modulo": "PDV",
       "categoria": "Ordenes",
       "tipo": "video",
@@ -194,6 +209,7 @@ window.GUIAS = {
     {
       "id": "1169716805",
       "nombre": "Planos de Mesas, como crear o editar un plano",
+      "descripcion": "",
       "modulo": "Administrador",
       "categoria": "Planos",
       "tipo": "video",
@@ -207,6 +223,7 @@ window.GUIAS = {
     {
       "id": "1169715872",
       "nombre": "Zonas",
+      "descripcion": "",
       "modulo": "General",
       "categoria": "Mesas y Salón",
       "tipo": "video",
@@ -220,6 +237,7 @@ window.GUIAS = {
     {
       "id": "344944867",
       "nombre": "App de Venta - Supervisión Seguridad, podes controlar cajs y autorizaciones",
+      "descripcion": "",
       "modulo": "PDV",
       "categoria": "Caja",
       "tipo": "video",
@@ -233,6 +251,7 @@ window.GUIAS = {
     {
       "id": "1174097783",
       "nombre": "Editar pin",
+      "descripcion": "",
       "modulo": "Administrador",
       "categoria": "Vendedores",
       "tipo": "video",
@@ -246,6 +265,7 @@ window.GUIAS = {
     {
       "id": "1182132898",
       "nombre": "Como fichar en el pdv y registro de empleados",
+      "descripcion": "",
       "modulo": "PDV",
       "categoria": "Vendedores",
       "tipo": "video",
@@ -259,6 +279,7 @@ window.GUIAS = {
     {
       "id": "330941569",
       "nombre": "Gestion-Empleados, en el administrador para pago de suedos",
+      "descripcion": "",
       "modulo": "Administrador",
       "categoria": "Vendedores",
       "tipo": "video",
@@ -272,6 +293,7 @@ window.GUIAS = {
     {
       "id": "391398347",
       "nombre": "Operación Standard Call Center",
+      "descripcion": "",
       "modulo": "Administrador",
       "categoria": "Funciones muertas",
       "tipo": "video",
@@ -285,6 +307,7 @@ window.GUIAS = {
     {
       "id": "1182132781",
       "nombre": "Permisos especiales",
+      "descripcion": "",
       "modulo": "PDV",
       "categoria": "Caja",
       "tipo": "video",
@@ -298,6 +321,7 @@ window.GUIAS = {
     {
       "id": "1173368949",
       "nombre": "Usuarios Admin",
+      "descripcion": "",
       "modulo": "Administrador",
       "categoria": "Usuarios",
       "tipo": "video",
@@ -311,6 +335,7 @@ window.GUIAS = {
     {
       "id": "131MhHGYdEdrno3JJ4Swa-lQL63D5gFoKUqeLT0i8e7A",
       "nombre": "Guia de como dar permisos",
+      "descripcion": "",
       "modulo": "Administrador",
       "categoria": "Vendedores",
       "tipo": "guia",
@@ -323,6 +348,7 @@ window.GUIAS = {
     {
       "id": "1wEZR48VA2Mm-EVwvzAkP5EDYfFbaWaPGKNbyuLI3aPo",
       "nombre": "Guia de como crear vendedores",
+      "descripcion": "",
       "modulo": "Administrador",
       "categoria": "Vendedores",
       "tipo": "guia",
@@ -335,6 +361,7 @@ window.GUIAS = {
     {
       "id": "1169714106",
       "nombre": "Como crear un vendedor, paso a paso",
+      "descripcion": "",
       "modulo": "Administrador",
       "categoria": "Vendedores",
       "tipo": "video",
@@ -348,6 +375,7 @@ window.GUIAS = {
     {
       "id": "1182132840",
       "nombre": "Apertura y cierre de caja",
+      "descripcion": "",
       "modulo": "PDV",
       "categoria": "Caja",
       "tipo": "video",
@@ -361,6 +389,7 @@ window.GUIAS = {
     {
       "id": "1174102923",
       "nombre": "Auditorias cajas",
+      "descripcion": "",
       "modulo": "Administrador",
       "categoria": "Caja",
       "tipo": "video",
@@ -374,6 +403,7 @@ window.GUIAS = {
     {
       "id": "344947833",
       "nombre": "Caja Central - Ajustes Centro de Costo",
+      "descripcion": "",
       "modulo": "Administrador",
       "categoria": "Caja",
       "tipo": "video",
@@ -387,6 +417,7 @@ window.GUIAS = {
     {
       "id": "344945474",
       "nombre": "Caja Central - Imputación de Pago",
+      "descripcion": "",
       "modulo": "Administrador",
       "categoria": "Caja",
       "tipo": "video",
@@ -400,6 +431,7 @@ window.GUIAS = {
     {
       "id": "344944233",
       "nombre": "Caja Central - Módulos y Recepción Transporte",
+      "descripcion": "",
       "modulo": "Administrador",
       "categoria": "Caja",
       "tipo": "video",
@@ -413,6 +445,7 @@ window.GUIAS = {
     {
       "id": "344938184",
       "nombre": "Caja Local - Depósito y Transporte",
+      "descripcion": "",
       "modulo": "PDV",
       "categoria": "Caja",
       "tipo": "video",
@@ -426,6 +459,7 @@ window.GUIAS = {
     {
       "id": "344944297",
       "nombre": "Caja Local - Pago Proveedores",
+      "descripcion": "",
       "modulo": "PDV",
       "categoria": "Caja",
       "tipo": "video",
@@ -439,6 +473,7 @@ window.GUIAS = {
     {
       "id": "1174097421",
       "nombre": "Cajas Locales",
+      "descripcion": "",
       "modulo": "PDV",
       "categoria": "Caja",
       "tipo": "video",
@@ -452,6 +487,7 @@ window.GUIAS = {
     {
       "id": "1182132823",
       "nombre": "Ingreso y egreso de caja",
+      "descripcion": "",
       "modulo": "PDV",
       "categoria": "Caja",
       "tipo": "video",
@@ -465,6 +501,7 @@ window.GUIAS = {
     {
       "id": "1174095548",
       "nombre": "Movimientos de Caja",
+      "descripcion": "",
       "modulo": "PDV",
       "categoria": "Caja",
       "tipo": "video",
@@ -478,6 +515,7 @@ window.GUIAS = {
     {
       "id": "1174060251",
       "nombre": "Sesiones de Caja y Arqueo",
+      "descripcion": "",
       "modulo": "PDV",
       "categoria": "Caja",
       "tipo": "video",
@@ -491,6 +529,7 @@ window.GUIAS = {
     {
       "id": "1174102479",
       "nombre": "Auditorias de ordenes",
+      "descripcion": "",
       "modulo": "Administrador",
       "categoria": "Reportes y Auditoría",
       "tipo": "video",
@@ -504,6 +543,7 @@ window.GUIAS = {
     {
       "id": "1174101836",
       "nombre": "Filtro Reportes, como usar los filtros por fechas y por local",
+      "descripcion": "",
       "modulo": "Administrador",
       "categoria": "Reportes y Auditoría",
       "tipo": "video",
@@ -517,6 +557,7 @@ window.GUIAS = {
     {
       "id": "1174054284",
       "nombre": "Logs, dentro de productos, podes ver el historia de modificaciones de un producto",
+      "descripcion": "",
       "modulo": "Administrador",
       "categoria": "Reportes y Auditoría",
       "tipo": "video",
@@ -530,6 +571,7 @@ window.GUIAS = {
     {
       "id": "453702245",
       "nombre": "Proceso Catálogo digital - Etapa 3. Pedidos de mostrador // CARTA DIGITAL.",
+      "descripcion": "",
       "modulo": "Administrador",
       "categoria": "Reportes y Auditoría",
       "tipo": "video",
@@ -542,6 +584,7 @@ window.GUIAS = {
     {
       "id": "1174106326",
       "nombre": "Reportes",
+      "descripcion": "",
       "modulo": "Administrador",
       "categoria": "Reportes y Auditoría",
       "tipo": "video",
@@ -555,6 +598,7 @@ window.GUIAS = {
     {
       "id": "1174047661",
       "nombre": "Reportes Historicos // reportes viejos, cuando no se pudo hacer el traspaso de info, a los nuevos reportes",
+      "descripcion": "",
       "modulo": "Administrador",
       "categoria": "Reportes y Auditoría",
       "tipo": "video",
@@ -568,6 +612,7 @@ window.GUIAS = {
     {
       "id": "350956625",
       "nombre": "Administracion - Think Food",
+      "descripcion": "",
       "modulo": "SIN USO",
       "categoria": "Aplicacion FOOD",
       "tipo": "video",
@@ -581,6 +626,7 @@ window.GUIAS = {
     {
       "id": "350948761",
       "nombre": "Calidad - Think Food",
+      "descripcion": "",
       "modulo": "SIN USO",
       "categoria": "Aplicacion FOOD",
       "tipo": "video",
@@ -594,6 +640,7 @@ window.GUIAS = {
     {
       "id": "350948960",
       "nombre": "Comensales - Think Food",
+      "descripcion": "",
       "modulo": "SIN USO",
       "categoria": "Aplicacion FOOD",
       "tipo": "video",
@@ -607,6 +654,7 @@ window.GUIAS = {
     {
       "id": "410398375",
       "nombre": "Email Marketing - Configuración Template",
+      "descripcion": "",
       "modulo": "Administrador",
       "categoria": "Marketing",
       "tipo": "video",
@@ -620,6 +668,7 @@ window.GUIAS = {
     {
       "id": "410395709",
       "nombre": "Email Marketing - Creacion de campaña",
+      "descripcion": "",
       "modulo": "Administrador",
       "categoria": "Marketing",
       "tipo": "video",
@@ -633,6 +682,7 @@ window.GUIAS = {
     {
       "id": "410391691",
       "nombre": "Email Marketing - Generalidades",
+      "descripcion": "",
       "modulo": "Administrador",
       "categoria": "Marketing",
       "tipo": "video",
@@ -646,6 +696,7 @@ window.GUIAS = {
     {
       "id": "1174053774",
       "nombre": "Asignaciones de marca, categoria, grupos, complementos",
+      "descripcion": "",
       "modulo": "Administrador",
       "categoria": "Productos",
       "tipo": "video",
@@ -659,6 +710,7 @@ window.GUIAS = {
     {
       "id": "1182132929",
       "nombre": "Baja de stock",
+      "descripcion": "",
       "modulo": "PDV",
       "categoria": "Ordenes",
       "tipo": "video",
@@ -672,6 +724,7 @@ window.GUIAS = {
     {
       "id": "1TZ7EahvchuRh-yL1sh4Ttcotr9EQhKpC",
       "nombre": "Como configurar Botoneras (nuevo botonera deslizable )",
+      "descripcion": "",
       "modulo": "Administrador",
       "categoria": "Productos",
       "tipo": "video",
@@ -684,6 +737,7 @@ window.GUIAS = {
     {
       "id": "1174052826",
       "nombre": "Cambios Masivos, de asignaciones y locales, NO es cambio de precios",
+      "descripcion": "",
       "modulo": "Administrador",
       "categoria": "Productos",
       "tipo": "video",
@@ -697,6 +751,7 @@ window.GUIAS = {
     {
       "id": "1182132997",
       "nombre": "como funcionan los opcioneles, Carga de productos con adicionales",
+      "descripcion": "",
       "modulo": "PDV",
       "categoria": "Ordenes",
       "tipo": "video",
@@ -710,6 +765,7 @@ window.GUIAS = {
     {
       "id": "1174049463",
       "nombre": "Como usar los Filtros en el modulo producto",
+      "descripcion": "",
       "modulo": "Administrador",
       "categoria": "Productos",
       "tipo": "video",
@@ -723,6 +779,7 @@ window.GUIAS = {
     {
       "id": "1174055784",
       "nombre": "Dentro de productos, como usar la clasificacion de Marcas",
+      "descripcion": "",
       "modulo": "Administrador",
       "categoria": "Productos",
       "tipo": "video",
@@ -736,6 +793,7 @@ window.GUIAS = {
     {
       "id": "1182134271",
       "nombre": "Permisos especiales",
+      "descripcion": "",
       "modulo": "PDV",
       "categoria": "Caja",
       "tipo": "video",
@@ -749,6 +807,7 @@ window.GUIAS = {
     {
       "id": "1174058314",
       "nombre": "Productos Aprobaciones, para configurar la carta digital",
+      "descripcion": "",
       "modulo": "Administrador",
       "categoria": "Productos",
       "tipo": "video",
@@ -762,6 +821,7 @@ window.GUIAS = {
     {
       "id": "1174099095",
       "nombre": "Productos Integraciones, como ver el sku del producto",
+      "descripcion": "",
       "modulo": "Administrador",
       "categoria": "Productos",
       "tipo": "video",
@@ -775,6 +835,7 @@ window.GUIAS = {
     {
       "id": "1174050220",
       "nombre": "Propiedades, filtro dentro de productos,",
+      "descripcion": "",
       "modulo": "Administrador",
       "categoria": "Productos",
       "tipo": "video",
@@ -788,6 +849,7 @@ window.GUIAS = {
     {
       "id": "1174048663",
       "nombre": "Configuracion de Reglas Directas",
+      "descripcion": "",
       "modulo": "Administrador",
       "categoria": "Reglas",
       "tipo": "video",
@@ -801,6 +863,7 @@ window.GUIAS = {
     {
       "id": "1174051399",
       "nombre": "Stock, como configurar el producto, para que aparezca en el stock",
+      "descripcion": "",
       "modulo": "Administrador",
       "categoria": "Stock",
       "tipo": "video",
@@ -814,6 +877,7 @@ window.GUIAS = {
     {
       "id": "1169701986",
       "nombre": "categorias-productos, como funcionan las categorias y como se asignan",
+      "descripcion": "",
       "modulo": "Administrador",
       "categoria": "Productos",
       "tipo": "video",
@@ -827,6 +891,7 @@ window.GUIAS = {
     {
       "id": "1MDiJBXPEH4bQ-SxuG2psyfcv49zVlk4Tyd_Hhx0pKUw",
       "nombre": "Como asignar categoria a prodcutos",
+      "descripcion": "",
       "modulo": "Administrador",
       "categoria": "Productos",
       "tipo": "guia",
@@ -839,6 +904,7 @@ window.GUIAS = {
     {
       "id": "1UVogz84n0NHkiuyCqcjasAR3ve7eL3iKq6drcJ3k73Q",
       "nombre": "Cambiar precio de los Insumos",
+      "descripcion": "",
       "modulo": "Administrador",
       "categoria": "Compras, Insumos y Proveedores",
       "tipo": "guia",
@@ -851,6 +917,7 @@ window.GUIAS = {
     {
       "id": "1169692595",
       "nombre": "Como crear un producto",
+      "descripcion": "",
       "modulo": "Administrador",
       "categoria": "Productos",
       "tipo": "video",
@@ -864,6 +931,7 @@ window.GUIAS = {
     {
       "id": "1182132799",
       "nombre": "Lógica de turnos, Cambio y cierre de turno",
+      "descripcion": "",
       "modulo": "PDV",
       "categoria": "Caja",
       "tipo": "video",
@@ -877,6 +945,7 @@ window.GUIAS = {
     {
       "id": "1182132732",
       "nombre": "Carga de orden en plano Delivery",
+      "descripcion": "",
       "modulo": "PDV",
       "categoria": "Ordenes",
       "tipo": "video",
@@ -890,6 +959,7 @@ window.GUIAS = {
     {
       "id": "1174099866",
       "nombre": "Integraciones Pedidos Ya, como mandar un mail de correccion a pedidos ya",
+      "descripcion": "",
       "modulo": "Administrador",
       "categoria": "Integraciones",
       "tipo": "video",
@@ -903,6 +973,7 @@ window.GUIAS = {
     {
       "id": "1182136254",
       "nombre": "Ordenes en espera (Holding)",
+      "descripcion": "",
       "modulo": "PDV",
       "categoria": "Ordenes",
       "tipo": "video",
@@ -916,6 +987,7 @@ window.GUIAS = {
     {
       "id": "1182134241",
       "nombre": "Manejo de impresoras, pausar y derivar impresora",
+      "descripcion": "",
       "modulo": "PDV",
       "categoria": "Impresoras",
       "tipo": "video",
@@ -929,6 +1001,7 @@ window.GUIAS = {
     {
       "id": "344936774",
       "nombre": "Actualización desde App de Venta, publicar en el pdv",
+      "descripcion": "",
       "modulo": "PDV",
       "categoria": "Publicar",
       "tipo": "video",
@@ -942,6 +1015,7 @@ window.GUIAS = {
     {
       "id": "1182132790",
       "nombre": "Cancelar artículo / producto mal comandado",
+      "descripcion": "",
       "modulo": "PDV",
       "categoria": "Ordenes",
       "tipo": "video",
@@ -955,6 +1029,7 @@ window.GUIAS = {
     {
       "id": "1182132969",
       "nombre": "Cargar informacion de un cliente // cargar cliente para Factura A",
+      "descripcion": "",
       "modulo": "PDV",
       "categoria": "Ordenes",
       "tipo": "video",
@@ -968,6 +1043,7 @@ window.GUIAS = {
     {
       "id": "524508194",
       "nombre": "Como Ingresar al Modulo de reportes",
+      "descripcion": "",
       "modulo": "Administrador",
       "categoria": "Reportes y Auditoría",
       "tipo": "video",
@@ -981,6 +1057,7 @@ window.GUIAS = {
     {
       "id": "1174108677",
       "nombre": "Como crear una Promociones",
+      "descripcion": "",
       "modulo": "Administrador",
       "categoria": "Productos",
       "tipo": "video",
@@ -994,6 +1071,7 @@ window.GUIAS = {
     {
       "id": "766968151",
       "nombre": "Explicacion de Compras - Insumos-Proveedores - Compras, video bien completo dura 19m",
+      "descripcion": "",
       "modulo": "Administrador",
       "categoria": "Compras, Insumos y Proveedores",
       "tipo": "video",
@@ -1007,6 +1085,7 @@ window.GUIAS = {
     {
       "id": "391398037",
       "nombre": "Creación Recetas",
+      "descripcion": "",
       "modulo": "Administrador",
       "categoria": "Compras, Insumos y Proveedores",
       "tipo": "video",
@@ -1020,6 +1099,7 @@ window.GUIAS = {
     {
       "id": "1182132771",
       "nombre": "Asignación y rendición de repartidores 🛵 Delivery / Repartidores",
+      "descripcion": "",
       "modulo": "PDV",
       "categoria": "Entregas",
       "tipo": "video",
@@ -1033,6 +1113,7 @@ window.GUIAS = {
     {
       "id": "1182132981",
       "nombre": "Cancelar pagos",
+      "descripcion": "",
       "modulo": "PDV",
       "categoria": "Ordenes",
       "tipo": "video",
@@ -1046,6 +1127,7 @@ window.GUIAS = {
     {
       "id": "1182136266",
       "nombre": "Cobro con MP Point",
+      "descripcion": "",
       "modulo": "PDV",
       "categoria": "Ordenes",
       "tipo": "video",
@@ -1059,6 +1141,7 @@ window.GUIAS = {
     {
       "id": "1182132989",
       "nombre": "Como facturar una orden",
+      "descripcion": "",
       "modulo": "PDV",
       "categoria": "Ordenes",
       "tipo": "video",
@@ -1072,6 +1155,7 @@ window.GUIAS = {
     {
       "id": "1182133016",
       "nombre": "Como parcializar un ticket",
+      "descripcion": "",
       "modulo": "PDV",
       "categoria": "Ordenes",
       "tipo": "video",
@@ -1085,6 +1169,7 @@ window.GUIAS = {
     {
       "id": "1182136279",
       "nombre": "Control Venta (NC post Cierre) // Nota de credito",
+      "descripcion": "",
       "modulo": "PDV",
       "categoria": "Caja",
       "tipo": "video",
@@ -1098,6 +1183,7 @@ window.GUIAS = {
     {
       "id": "1174056546",
       "nombre": "Crear Descuentos",
+      "descripcion": "",
       "modulo": "Administrador",
       "categoria": "Productos",
       "tipo": "video",
@@ -1111,6 +1197,7 @@ window.GUIAS = {
     {
       "id": "1182132868",
       "nombre": "Como usar Descuentos",
+      "descripcion": "",
       "modulo": "PDV",
       "categoria": "Ordenes",
       "tipo": "video",
@@ -1124,6 +1211,7 @@ window.GUIAS = {
     {
       "id": "1182132834",
       "nombre": "Envio de factura electrónica por mail",
+      "descripcion": "",
       "modulo": "PDV",
       "categoria": "Ordenes",
       "tipo": "video",
@@ -1137,6 +1225,7 @@ window.GUIAS = {
     {
       "id": "1182132885",
       "nombre": "Como hacer una factura A, Impresión factura A",
+      "descripcion": "",
       "modulo": "PDV",
       "categoria": "Ordenes",
       "tipo": "video",
@@ -1150,6 +1239,7 @@ window.GUIAS = {
     {
       "id": "1174101446",
       "nombre": "Integraciones Mercado Pago Dely, como se configura desde su app",
+      "descripcion": "",
       "modulo": "App Externa",
       "categoria": "Integraciones",
       "tipo": "video",
@@ -1163,6 +1253,7 @@ window.GUIAS = {
     {
       "id": "1174057281",
       "nombre": "Como crear un Metodos de Pago",
+      "descripcion": "",
       "modulo": "Administrador",
       "categoria": "Administracion",
       "tipo": "video",
@@ -1176,6 +1267,7 @@ window.GUIAS = {
     {
       "id": "344935631",
       "nombre": "Movimiento stock-medio de pago-ticket cajero",
+      "descripcion": "",
       "modulo": "Administrador",
       "categoria": "Administracion",
       "tipo": "video",
@@ -1189,6 +1281,7 @@ window.GUIAS = {
     {
       "id": "330941525",
       "nombre": "Pagos-Empleados",
+      "descripcion": "",
       "modulo": "Administrador",
       "categoria": "Facturación y Cobros",
       "tipo": "video",
@@ -1202,6 +1295,7 @@ window.GUIAS = {
     {
       "id": "1182132937",
       "nombre": "Ticket con leyenda Cena",
+      "descripcion": "",
       "modulo": "PDV",
       "categoria": "Ordenes",
       "tipo": "video",
@@ -1215,6 +1309,7 @@ window.GUIAS = {
     {
       "id": "1174108283",
       "nombre": "Ticket de Cajero",
+      "descripcion": "",
       "modulo": "PDV",
       "categoria": "Caja",
       "tipo": "video",
