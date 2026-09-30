@@ -1,7 +1,7 @@
 # Guías Thinkion
 
 Página pública con los videos y guías de Thinkion. Se alimenta sola desde el Google Sheet:
-una vez por día GitHub lee el Sheet y, si hay algo nuevo o cambiado, actualiza la página.
+cada hora GitHub lee el Sheet y, si hay algo nuevo o cambiado, actualiza la página.
 
 ## Cómo se carga contenido
 

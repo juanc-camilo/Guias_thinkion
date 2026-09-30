@@ -1,6 +1,6 @@
 /* =========================================================
    ACTUALIZAR — lee el Google Sheet y genera data/videos.js
-   Lo corre GitHub Actions una vez por día (ver .github/workflows).
+   Lo corre GitHub Actions cada hora (ver .github/workflows).
    A mano: node scripts/actualizar.mjs
 
    Columnas del Sheet:

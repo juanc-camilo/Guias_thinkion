@@ -1,11 +1,11 @@
-# Lee el Google Sheet una vez por día y, si hay cambios, actualiza data/videos.js.
+# Lee el Google Sheet cada hora y, si hay cambios, actualiza data/videos.js.
 # GitHub Pages vuelve a publicar la página sola con cada commit.
 # Para actualizar en el momento: pestaña Actions > "Actualizar guías" > Run workflow.
 name: Actualizar guías
 
 on:
   schedule:
-    - cron: "0 9 * * *" # todos los días a las 06:00 de Argentina (09:00 UTC)
+    - cron: "0 * * * *" # cada hora, en punto
   workflow_dispatch: {}
 
 permissions:
