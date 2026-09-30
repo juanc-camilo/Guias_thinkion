@@ -70,7 +70,7 @@ Abrir `index.html` con doble clic. Para traer los últimos datos del Sheet antes
 node scripts/actualizar.mjs
 ```
 
-## Estructura
+##  Estructura
 
 ```
 index.html                     La página
