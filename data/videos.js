@@ -1,6 +1,6 @@
 /* Archivo generado por scripts/actualizar.mjs — no editar a mano: los cambios se hacen en el Google Sheet */
 window.GUIAS = {
-  "actualizado": "2026-09-30T22:41:28.515Z",
+  "actualizado": "2026-09-30T22:52:32.845Z",
   "total": 95,
   "items": [
     {
@@ -125,7 +125,7 @@ window.GUIAS = {
     {
       "id": "1182132915",
       "nombre": "Anulación de Mesa // hacer nota de credito",
-      "descripcion": "",
+      "descripcion": "prueba descripcion",
       "modulo": "PDV",
       "categoria": "Ordenes",
       "tipo": "video",
