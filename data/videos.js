@@ -1,6 +1,6 @@
 /* Archivo generado por scripts/actualizar.mjs — no editar a mano: los cambios se hacen en el Google Sheet */
 window.GUIAS = {
-  "actualizado": "2026-10-09T15:56:15.780Z",
+  "actualizado": "2026-10-09T20:43:25.864Z",
   "total": 95,
   "items": [
     {
@@ -634,7 +634,7 @@ window.GUIAS = {
       "url": "https://vimeo.com/350948761",
       "embed": "https://player.vimeo.com/video/350948761",
       "fuente": "vimeo",
-      "miniatura": "https://i.vimeocdn.com/video/802388375-609958e59839b4ea7f91d217feee8c3b96f352e82af9400c5c399c7dbe6bbd86-d_640?region=us",
+      "miniatura": "https://i.vimeocdn.com/video/802388375-609958e59839b4ea7f91d217feee8c3b96f352e82af9400c5c399c7dbe6bbd86-d_640x360?region=us",
       "duracion": 48
     },
     {
